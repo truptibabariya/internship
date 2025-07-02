@@ -9,7 +9,7 @@ CREATE TABLE customer (
 
 SELECT * FROM customer; -- Fetch all records from customer
 
-DROP TABLE IF EXISTS customer; -- Safely remove the table if it exists
+DROP TABLE IF EXISTS customer; -- Safely remove the tablae if it exists
 
 ALTER TABLE customer ADD COLUMN active BOOLEAN; -- Add a boolean "active" column
 
